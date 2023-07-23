@@ -20,6 +20,7 @@ module.exports = {
         purple: "rgba(131,58,180,1)",
         red: "rgba(253,29,29,1)",
         orange: "rgba(252,176,69,1)",
+        gray: "#454545",
       },
     },
   },

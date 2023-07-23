@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilepic from "../../public/images/profile/homepagepic2.png";
+import profilepic from "../../public/images/profile/homepagepic1.png";
 import Animated from "@/components/Animated";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
