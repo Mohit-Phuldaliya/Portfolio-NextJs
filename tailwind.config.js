@@ -17,6 +17,9 @@ module.exports = {
         light: "#f5f5f5",
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217
+        purple: "rgba(131,58,180,1)",
+        red: "rgba(253,29,29,1)",
+        orange: "rgba(252,176,69,1)",
       },
     },
   },
