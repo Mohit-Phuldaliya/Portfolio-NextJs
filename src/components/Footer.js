@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg">
-      <Layout className="py-2 bg-black text-light flex items-center justify-between">
+      <Layout className="py-2  !bg-dark !text-light flex items-center justify-between">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved</span>
         <div className="flex item-center">
           Build With

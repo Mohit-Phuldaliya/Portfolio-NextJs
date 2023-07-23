@@ -1,10 +1,12 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilepic from "../../public/images/profile/homepagepic1.png";
+import profilepic from "../../public/images/profile/homepagepic2.png";
+import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import Animated from "@/components/Animated";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
+import HireMe from "@/components/HireMe";
 
 export default function Home() {
   return (
@@ -63,6 +65,10 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <HireMe />
+        <div className="absolute right-8 bottom-8 inline-block w-24">
+          <Image src={lightBulb} alt="Mohit" className="w-full h-auto" />
+        </div>
       </main>
     </>
   );
