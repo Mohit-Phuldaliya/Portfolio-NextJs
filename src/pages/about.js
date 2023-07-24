@@ -107,7 +107,7 @@ export default function about() {
                   <AnimatedNumbers value={2} />+
                 </span>
                 <h2 className="capitalize font-bold text-dark/75">
-                  year of Experience in coding
+                  years of Experience in coding
                 </h2>
               </div>
             </div>
