@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import cryptoDashboard from "../../public/images/projects/cryptoDashboard.png";
+import Head from "next/head";
 
 const Project = ({ type, title, summary, img, link, github }) => {
   return (
@@ -47,10 +48,10 @@ const Project = ({ type, title, summary, img, link, github }) => {
 export default function projects() {
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>Mohit Phuldaliya | Projects</title>
         <meta name="description" content="any description" />
-      </Head> */}
+      </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center">
         <Layout className="!pt-8 !pb-[2rem]">
           <Animated
