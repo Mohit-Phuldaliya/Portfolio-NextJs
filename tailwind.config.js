@@ -22,7 +22,11 @@ module.exports = {
         orange: "rgba(252,176,69,1)",
       },
       animation: {
-        "spin-slow": "spin 9s linear infinite",
+        "spin-slow": "spin 7s linear infinite",
+      },
+      backgroundImage: {
+        circularLight:
+          "repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 4px,#f5f5f5 100px)",
       },
     },
   },
