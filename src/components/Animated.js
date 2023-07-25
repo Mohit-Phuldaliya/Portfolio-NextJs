@@ -37,7 +37,11 @@ export default function Animated({ text, className = "" }) {
         animate="animate"
       >
         {text.split(" ").map((word, index) => (
-          <motion.span className="inline-block" variants={singleWord}>
+          <motion.span
+            key={index}
+            className="inline-block"
+            variants={singleWord}
+          >
             {word}&nbsp;
           </motion.span>
         ))}
