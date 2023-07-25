@@ -7,6 +7,7 @@ import React from "react";
 import cryptoDashboard from "../../public/images/projects/cryptoDashboard.png";
 import Head from "next/head";
 import { motion } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -69,6 +70,7 @@ export default function projects() {
         <title>Mohit Phuldaliya | Projects</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="!pt-8 !pb-[2rem]">
           <Animated
