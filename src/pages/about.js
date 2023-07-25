@@ -43,10 +43,10 @@ export default function about() {
         <Layout className="!pt-8 !pb-[5rem]">
           <Animated
             text="Passion Fuels Purpose !!"
-            className="!text-4xl mb-10 !text-primary "
+            className="!text-4xl mb-10 !text-primary  lg:!text-2xl sm:!text-xl xs:!text-xl sm:mb-5"
           />
-          <div className="grid w-full grid-cols-8 gap-16">
-            <div className="col-span-3 flex flex-col items-start justify-start">
+          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
+            <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-2xl font-bold uppercase text-purple dark:text-primaryDark underline underline-offset-2">
                 About me
               </h2>
@@ -78,7 +78,7 @@ export default function about() {
                 engineering to collaborate and grow together. Let's connect!
               </p>
             </div>
-            <div className="col-span-3 relative h-max  flex justify-center items-center">
+            <div className="col-span-3 relative h-max  flex justify-center items-center xl:col-span-4 md:order-1 md:col-span-8">
               <Image
                 src={Mohit}
                 alt="Mohit"
@@ -87,28 +87,28 @@ export default function about() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
-            <div className="col-span-2 flex flex-col items-end justify-between">
-              <div className="flex flex-col items-end justify-center">
-                <span className="inline-block text-5xl font-bold">
+            <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
+              <div className="flex flex-col items-end xl:items-center justify-center">
+                <span className="inline-block text-5xl font-bold md:text-4xl sm:text-3xl xs:text-2xl">
                   <AnimatedNumbers value={200} />+
                 </span>
-                <h2 className="capitalize font-bold text-dark/75 dark:text-light/75">
+                <h2 className="capitalize font-bold text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Leetcode Problems Solved
                 </h2>
               </div>
-              <div className="flex flex-col items-end justify-center">
-                <span className="inline-block text-5xl font-bold">
+              <div className="flex flex-col items-end xl:items-center justify-center">
+                <span className="inline-block text-5xl font-bold md:text-4xl sm:text-3xl xs:text-2xl">
                   <AnimatedNumbers value={15} />+
                 </span>
-                <h2 className="capitalize font-bold text-dark/75 dark:text-light/75">
+                <h2 className="capitalize font-bold text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Projects Completed
                 </h2>
               </div>
-              <div className="flex flex-col items-end justify-center">
-                <span className="inline-block text-5xl font-bold">
+              <div className="flex flex-col items-end xl:items-center justify-center">
+                <span className="inline-block text-5xl font-bold md:text-4xl sm:text-3xl xs:text-2xl">
                   <AnimatedNumbers value={2} />+
                 </span>
-                <h2 className="capitalize font-bold text-dark/75 dark:text-light/75">
+                <h2 className="capitalize font-bold text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   years of Experience in coding
                 </h2>
               </div>

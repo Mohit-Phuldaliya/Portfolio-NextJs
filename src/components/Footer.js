@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg">
-      <Layout className="py-2  !bg-dark !text-light flex items-center justify-between dark:!bg-light dark:!text-dark">
+    <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg sm:text-base">
+      <Layout className="py-2  !bg-dark !text-light flex items-center justify-between dark:!bg-light dark:!text-dark lg:flex-col lg:py-6">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved</span>
-        <div className="flex item-center">
+        <div className="flex item-center lg:py-2">
           Build With
           <span className="text-2xl px-1 text-red text-semiBold dark:text-primaryDark">
             &#9825;
