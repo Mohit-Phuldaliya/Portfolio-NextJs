@@ -53,9 +53,10 @@ export default function about() {
                 About me
               </h2>
               <p className="font-medium">
-                I'm <span className="text-red font-bold">Mohit Phuldaliya</span>
-                , a motivated software engineer specializing in frontend,
-                backend, and full-stack development. Skilled in data structures,
+                I&apos;m{" "}
+                <span className="text-red font-bold">Mohit Phuldaliya</span>, a
+                motivated software engineer specializing in frontend, backend,
+                and full-stack development. Skilled in data structures,
                 algorithms, and problem-solving with proficiency in
                 <span className="font-bold">
                   &nbsp;C, C++, JavaScript, HTML and CSS.
@@ -71,13 +72,14 @@ export default function about() {
               </p>
               <p className="font-medium my-4">
                 Strong leadership and communication skills as a Student
-                Coordinator at M.B.M University's Training & Placement Office.
-                Active in coding & sports clubs, like football and badminton,
-                and coding communities like GDSC and Codechef.
+                Coordinator at M.B.M University&apos;s Training & Placement
+                Office. Active in coding & sports clubs, like football and
+                badminton, and coding communities like GDSC and Codechef.
               </p>
               <p className="font-medium">
-                I'm seeking internship or professional opportunities in software
-                engineering to collaborate and grow together. Let's connect!
+                I&apos;m seeking internship or professional opportunities in
+                software engineering to collaborate and grow together.
+                Let&apos;s connect!
               </p>
             </div>
             <div className="col-span-3 relative h-max  flex justify-center items-center xl:col-span-4 md:order-1 md:col-span-8">
