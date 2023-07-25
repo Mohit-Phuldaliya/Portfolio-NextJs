@@ -16,11 +16,13 @@ const Details = ({ type, time, place, info, cgpa }) => {
         transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl">{type}</h3>
-        <span className="capitalize font-bold text-dark/75">
+        <span className="capitalize font-bold text-dark/75 dark:text-light/75">
           {time} | {place}
         </span>
-        <p className="font-medium w-full text-dark/75">{info}</p>
-        <p className="font-bold w-full text-dark/75">{cgpa}</p>
+        <p className="font-medium w-full  text-dark/75 dark:text-light/75">
+          {info}
+        </p>
+        <p className="font-bold w-full text-primary ">{cgpa}</p>
       </motion.div>
     </li>
   );
@@ -34,13 +36,13 @@ export default function Education() {
   });
   return (
     <div className="my-[10rem]">
-      <h2 className="text-purple font-bold text-5xl  mb-[5rem] w-full text-center  underline underline-offset-2">
+      <h2 className="text-purple dark:text-primaryDark font-bold text-5xl  mb-[5rem] w-full text-center  underline underline-offset-2">
         Education
       </h2>
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px]  h-full bg-dark origin-top"
+          className="absolute left-9 top-0 w-[4px]  h-full bg-dark origin-top dark:bg-light"
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4">

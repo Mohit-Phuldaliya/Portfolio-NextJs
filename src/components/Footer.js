@@ -5,13 +5,18 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg">
-      <Layout className="py-2  !bg-dark !text-light flex items-center justify-between">
+      <Layout className="py-2  !bg-dark !text-light flex items-center justify-between dark:!bg-light dark:!text-dark">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved</span>
         <div className="flex item-center">
           Build With
-          <span className="text-2xl px-1 text-red text-semiBold">&#9825;</span>
+          <span className="text-2xl px-1 text-red text-semiBold dark:text-primaryDark">
+            &#9825;
+          </span>
           by&nbsp;
-          <Link href="/" className="text-orange underline underline-offset-2">
+          <Link
+            href="/"
+            className=" underline underline-offset-2 text-primaryDark dark:text-red"
+          >
             Mohit Phuldaliya
           </Link>
         </div>

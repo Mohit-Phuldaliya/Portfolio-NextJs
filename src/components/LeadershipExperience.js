@@ -15,7 +15,7 @@ const Details = ({ position, company, compnayLink, time, address, work }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl">
+        <h3 className="capitalize font-bold text-xl">
           {position}&nbsp;
           <a
             href={compnayLink}
@@ -25,10 +25,12 @@ const Details = ({ position, company, compnayLink, time, address, work }) => {
             @{company}
           </a>
         </h3>
-        <span className="capitalize font-bold text-dark/75">
+        <span className="capitalize font-bold text-dark/75 dark:text-light/75">
           {time} | {address}
         </span>
-        <p className="font-medium w-full text-dark/75">{work}</p>
+        <p className="font-medium w-full text-dark/75 dark:text-light/75">
+          {work}
+        </p>
       </motion.div>
     </li>
   );
@@ -42,13 +44,13 @@ export default function LeadershipExperience() {
   });
   return (
     <div className="my-[10rem]">
-      <h2 className="text-purple font-bold text-5xl  mb-[5rem] w-full text-center  underline underline-offset-2">
+      <h2 className="text-purple dark:text-primaryDark font-bold text-5xl  mb-[5rem] w-full text-center  underline underline-offset-2">
         Leadership Experience
       </h2>
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px]  h-full bg-dark origin-top"
+          className="absolute left-9 top-0 w-[4px]  h-full bg-dark origin-top dark:bg-light"
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4">

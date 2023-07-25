@@ -39,15 +39,15 @@ export default function about() {
         <title>Mohit Phuldaliya | About</title>
         <meta name="description" content="any description" />
       </Head>
-      <main className="flex w-full flex-col items-center justify-center">
-        <Layout className="!pt-8 !pb-[2rem]">
+      <main className="flex w-full flex-col items-center justify-center dark:text-light">
+        <Layout className="!pt-8 !pb-[5rem]">
           <Animated
             text="Passion Fuels Purpose !!"
-            className="!text-4xl mb-10 text-primary "
+            className="!text-4xl mb-10 !text-primary "
           />
           <div className="grid w-full grid-cols-8 gap-16">
             <div className="col-span-3 flex flex-col items-start justify-start">
-              <h2 className="mb-4 text-2xl font-bold uppercase text-purple underline underline-offset-2">
+              <h2 className="mb-4 text-2xl font-bold uppercase text-purple dark:text-primaryDark underline underline-offset-2">
                 About me
               </h2>
               <p className="font-medium">
@@ -82,7 +82,9 @@ export default function about() {
               <Image
                 src={Mohit}
                 alt="Mohit"
-                className="w-[20rem] h-auto border-2 border-solid border-dark rounded-2xl"
+                className="w-[20rem] h-auto border-2 border-solid border-dark dark:border-light rounded-2xl"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between">
@@ -90,7 +92,7 @@ export default function about() {
                 <span className="inline-block text-5xl font-bold">
                   <AnimatedNumbers value={200} />+
                 </span>
-                <h2 className="capitalize font-bold text-dark/75">
+                <h2 className="capitalize font-bold text-dark/75 dark:text-light/75">
                   Leetcode Problems Solved
                 </h2>
               </div>
@@ -98,7 +100,7 @@ export default function about() {
                 <span className="inline-block text-5xl font-bold">
                   <AnimatedNumbers value={15} />+
                 </span>
-                <h2 className="capitalize font-bold text-dark/75">
+                <h2 className="capitalize font-bold text-dark/75 dark:text-light/75">
                   Projects Completed
                 </h2>
               </div>
@@ -106,7 +108,7 @@ export default function about() {
                 <span className="inline-block text-5xl font-bold">
                   <AnimatedNumbers value={2} />+
                 </span>
-                <h2 className="capitalize font-bold text-dark/75">
+                <h2 className="capitalize font-bold text-dark/75 dark:text-light/75">
                   years of Experience in coding
                 </h2>
               </div>
