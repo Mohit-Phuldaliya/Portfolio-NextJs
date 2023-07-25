@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="./public/images/profile/homepagepic2.png" />
+        <link rel="icon" href="/images/profile/MP.png" />
       </Head>
       <main
         className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}
