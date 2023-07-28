@@ -5,6 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import cryptoDashboard from "../../public/images/projects/cryptoDashboard.png";
+import contactappFirebase from "../../public/images/projects/contactappFirebase.png";
+import brandPage from "../../public/images/projects/brandPage.png";
+import contactUS from "../../public/images/projects/contactUS.png";
+import diceGame from "../../public/images/projects/diceGame.png";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -31,15 +35,15 @@ const Project = ({ type, title, summary, img, link, github }) => {
         />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4">
-        <span className="text-primary dark:text-primaryDark  font-medium text-xl lg:text-lg md:text-base">
-          {type}
+        <span className="text-primary dark:text-primaryDark  font-medium text-md lg:text-md md:text-base">
+          <span className="text-red dark:text-orange ">Tech :- </span> {type}
         </span>
         <Link
           href={link}
           target="_blank"
           className="hover:underline underline-offset-2"
         >
-          <h2 className="my-2 w-full text-left text-3xl font-bold dark:text-light lg:text-2xl md:text-xl">
+          <h2 className="my-2 w-full text-left text-2xl font-bold dark:text-light lg:text-xl md:text-lg">
             {title}
           </h2>
         </Link>
@@ -81,51 +85,52 @@ export default function projects() {
             <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
                 title="Crypto-Dashboard"
-                summary="Crypto Dashboard Is a prooject made wiht reactjs and Chakra UI"
-                link="/"
+                summary=""
+                link="https://crypto-dashboard-rose.vercel.app/"
                 github="https://github.com/Mohit-Phuldaliya/Crypto-Dashboard-Project-6"
                 img={cryptoDashboard}
-                type="feature"
+                type="ReactJs | ChakraUI"
               />
             </div>
-            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12 xs:col-span-12">
+            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
-                title="Crypto-Dashboard"
-                summary="Crypto Dashboard Is a prooject made wiht reactjs and Chakra UI"
-                link="/"
-                github="https://github.com/Mohit-Phuldaliya/Crypto-Dashboard-Project-6"
-                img={cryptoDashboard}
-                type="feature"
+                title="Firebase Contact App"
+                summary=""
+                link="https://add-contactapp-firebase.vercel.app/"
+                github="https://github.com/Mohit-Phuldaliya/ContactApp-Firebase-React-Project-5"
+                img={contactappFirebase}
+                type="ReactJs | Firebase | ChakraUI | react-toastify
+                "
               />
             </div>
-            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12 xs:col-span-12">
+            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
-                title="Crypto-Dashboard"
-                summary="Crypto Dashboard Is a prooject made wiht reactjs and Chakra UI"
-                link="/"
-                github="https://github.com/Mohit-Phuldaliya/Crypto-Dashboard-Project-6"
-                img={cryptoDashboard}
-                type="feature"
+                title="Dice-Game"
+                summary=""
+                link="https://dice-game-gamma-one.vercel.app/"
+                github="https://github.com/Mohit-Phuldaliya/Dice-Game-React-Project-3-"
+                img={diceGame}
+                type="ReactJs | TailwindCSS"
               />
             </div>
-            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12 xs:col-span-12">
+            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
-                title="Crypto-Dashboard"
-                summary="Crypto Dashboard Is a prooject made wiht reactjs and Chakra UI"
-                link="/"
-                github="https://github.com/Mohit-Phuldaliya/Crypto-Dashboard-Project-6"
-                img={cryptoDashboard}
-                type="feature"
+                title="Contact-Us-Page"
+                summary=""
+                link="https://contact-us-fawn.vercel.app/"
+                github="https://github.com/Mohit-Phuldaliya/Contact-Us-React-Project-2-"
+                img={contactUS}
+                type="ReactJs | CSS Module"
               />
             </div>
-            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12 xs:col-span-12 ">
+            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
-                title="Crypto-Dashboard"
-                summary="Crypto Dashboard Is a prooject made wiht reactjs and Chakra UI"
-                link="/"
-                github="https://github.com/Mohit-Phuldaliya/Crypto-Dashboard-Project-6"
-                img={cryptoDashboard}
-                type="feature"
+                title="Brand-Landing-Page"
+                summary=""
+                link="https://brand-page-lemon.vercel.app/"
+                github="https://github.com/Mohit-Phuldaliya/Brand-Page-React-Project-1-"
+                img={brandPage}
+                type="ReactJs | CSS Module"
               />
             </div>
           </div>

@@ -18,13 +18,15 @@ const Details = ({ type, time, place, info, cgpa }) => {
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {type}
         </h3>
-        <span className="capitalize font-bold text-dark/75 dark:text-light/75 xs:text-sm">
+        <span className="capitalize font-bold text-dark/75 dark:text-light xs:text-sm">
           {time} | {place}
         </span>
-        <p className="font-medium w-full  text-dark/75 dark:text-light/75 md:text-sm">
+        <p className="font-medium w-full  text-dark/75 dark:text-light/75 md:text-sm text-sm">
           {info}
         </p>
-        <p className="font-bold w-full text-primary md:text-sm">{cgpa}</p>
+        <p className="font-bold w-full text-primary md:text-sm text-sm">
+          {cgpa}
+        </p>
       </motion.div>
     </li>
   );
@@ -52,7 +54,7 @@ export default function Education() {
             type="Bachelor of Engineering"
             time="2020 - 2024"
             place="M.B.M UNIVERSITY, JODHPUR"
-            info="Final year student having major Electrical Engineering, Student Coordinator at Training & Placement Office. Active in coding & sports clubs, like football and badminton, and coding communities like GDSC and Codechef"
+            info="Final year student having major Electrical Engineering, Student Coordinator at Training & Placement Office. Active in sports clubs, like football and badminton, and coding communities like GDSC and Codechef"
             cgpa="Current CGPA: 8.75"
           />
           <Details
@@ -66,8 +68,7 @@ export default function Education() {
             type="Secondary Education"
             time="till 2018"
             place="KENDRIYA VIDYALAYA (BSF) Jodhpur"
-            info="Completed my Secondary Education, Silver Medalist (Hockey Under-19) KVS Regional Sports Meet 2017-18.
-            Bronze Medalist (Hockey Under-19) KVS Regional Sports Meet 2016-17."
+            info="Completed my Secondary Education, Achievements:- Silver Medalist (Hockey Under-19) KVS Regional Sports Meet 2017-18, Bronze Medalist (Hockey Under-19) KVS Regional Sports Meet 2016-17."
           />
         </ul>
       </div>

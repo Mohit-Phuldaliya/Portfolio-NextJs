@@ -4,7 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Mohit from "../../public/images/profile/Mohit.jpeg";
 import React, { useEffect, useRef } from "react";
-import { useInView, useMotionValue, useSpring } from "framer-motion";
+import { useInView, useMotionValue, useSpring, motion } from "framer-motion";
+
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import LeadershipExperience from "@/components/LeadershipExperience";
@@ -54,10 +55,23 @@ export default function about() {
               </h2>
               <p className="font-medium">
                 I&apos;m{" "}
-                <span className="text-red font-bold">Mohit Phuldaliya</span>, a
-                motivated software engineer specializing in frontend, backend,
-                and full-stack development. Skilled in data structures,
-                algorithms, and problem-solving with proficiency in
+                <motion.span
+                  className="text-red font-bold"
+                  whileHover={{ color: "blue" }}
+                >
+                  <a
+                    href="https://www.linkedin.com/in/mohit-phuldaliya-58aba7217/"
+                    target={"_blank"}
+                  >
+                    Mohit Phuldaliya
+                  </a>
+                </motion.span>
+                , a motivated software engineer specializing in frontend,
+                backend, and full-stack development. Skilled in{" "}
+                <span className="font-bold">
+                  Data structures, Algorithms, and Problem-Solving
+                </span>{" "}
+                with proficiency in
                 <span className="font-bold">
                   &nbsp;C, C++, JavaScript, HTML and CSS.
                 </span>{" "}
