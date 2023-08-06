@@ -84,6 +84,16 @@ export default function projects() {
           <div className="grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 sm:gap-x-0">
             <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
+                title="Personal-Portfolio"
+                summary=""
+                link="https://crypto-dashboard-rose.vercel.app/"
+                github="https://github.com/Mohit-Phuldaliya/Crypto-Dashboard-Project-6"
+                img={cryptoDashboard}
+                type="ReactJs | ChakraUI"
+              />
+            </div>
+            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
+              <Project
                 title="Crypto-Dashboard"
                 summary=""
                 link="https://crypto-dashboard-rose.vercel.app/"
@@ -92,6 +102,7 @@ export default function projects() {
                 type="ReactJs | ChakraUI"
               />
             </div>
+
             <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
                 title="Firebase Contact App"

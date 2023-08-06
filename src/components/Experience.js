@@ -66,6 +66,17 @@ export default function Experience() {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Backend Intern (NodeJs)"
+            company="Celebal Technology"
+            compnayLink="https://www.linkedin.com/company/celebaltechnologies/"
+            time="May 2023 - July 2023"
+            address="Jaipur Rajasthan"
+            work="Dynamic Node.js developer with MongoDB proficiency and intensive
+            internship experience. Created an intuitive, user-friendly Blog Website with CRUD
+            operations and JWT authentication. Adept at tackling coding challenges and debugging"
+            cert="https://drive.google.com/file/d/15qguM0UbJhmoi3GmH8_nZEaLQF1whmGv/view"
+          />
+          <Details
             position="Backend-Teaching Assistant"
             company="Coding Ninjas"
             compnayLink="https://www.codingninjas.com/"
