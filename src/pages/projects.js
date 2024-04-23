@@ -82,7 +82,7 @@ export default function projects() {
             className="!text-4xl mb-10 !text-orange lg:!text-2xl sm:!text-xl xs:!text-xl sm:mb-5"
           />
           <div className="grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 sm:gap-x-0">
-            <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
+            {/* <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
                 title="Personal-Portfolio"
                 summary=""
@@ -91,7 +91,7 @@ export default function projects() {
                 img={cryptoDashboard}
                 type="ReactJs | ChakraUI"
               />
-            </div>
+            </div> */}
             <div className="col-span-4 md:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
                 title="Crypto-Dashboard"
