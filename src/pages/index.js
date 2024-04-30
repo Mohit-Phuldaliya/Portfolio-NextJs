@@ -53,7 +53,7 @@ export default function Home() {
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
                   target={"_blank"}
-                  href="https://drive.google.com/file/d/1dpX9ofthZT-iBkdQAmicRT4JDhY15G1w/view?usp=sharing"
+                  href="https://drive.google.com/file/d/14OhVlqxSekaaNzxjfmhL-n0eBIfgI-MN/view?usp=sharing"
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2  border-solid border-transparent hover:border-dark dark:border-light md:p-2 md;px-4 md:text-base"
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
